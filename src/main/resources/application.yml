@@ -31,16 +31,3 @@ jwt:
   header: Authorization
   secret: dlrjssorkwwpdlfdjfudnjgksmsjwtdlswmdxhzmsqkdtlrdleksorkdlrjfrhdqnfmfgksmsepsjandjfudnsrjrkxek
   token-validity-in-seconds: 86400
-#
-#cloud:
-#  aws:
-#    credentials:
-#      accessKey: AKIAYSLHBDBOYS2HDZ5J      # AWS IAM AccessKey 적기
-#      secretKey: 12jTiN8XS8gmaUaxnZEBQgcTu1kwULQphYVr/0F/   # AWS IAM SecretKey 적기
-#    s3:
-#      bucket: flutter-spring   # ex) marryting-gyunny
-#      dir: /profile # ex) /gyunny
-#    region:
-#      static: ap-northeast-2
-#    stack:
-#      auto: false
